@@ -23,19 +23,21 @@ Make sure you have Python installed.
 ```bash
 git clone https://github.com/YOUR_USERNAME/ripely.git
 cd ripely
-Install dependencies
+2. **Install dependencies**
 
 bash
 Copy
 Edit
 pip install flask easyocr numpy pillow
-Run the app
+
+3. **Run the app**
 
 bash
 Copy
 Edit
 python app.py
-Test with cURL
+
+4. **Test with cURL**
 
 bash
 Copy
@@ -50,7 +52,7 @@ Edit
   "status": "success",
   "items_detected": ["Milk", "Eggs", "Apples", "Total", "15.99"]
 }
-🧠 Tech Stack
+**## 🧠 Tech Stack**
 Frontend: Wix (members area + UI mockup)
 
 Backend: Flask (Python on Replit)
@@ -61,14 +63,14 @@ Hosting Attempts: Replit, Render, Fly.io
 
 Version Control: GitHub
 
-📊 Dataset & Preprocessing
+## **📊 Dataset & Preprocessing**
 No fixed dataset used; text dynamically extracted using OCR.
 
 Images converted to RGB before processing.
 
 Lightweight, fast processing pipeline.
 
-🧱 Known Limitations
+## **🧱 Known Limitations**
 No database or persistent storage (yet).
 
 Free hosting/storage limits (Replit & Render).
@@ -77,7 +79,7 @@ Backend not fully connected to Wix due to plan restrictions.
 
 Needs manual expiry date entry (current OCR does not auto-detect dates).
 
-🔮 Roadmap
+## **🔮 Roadmap**
 ✅ OCR prototype completed.
 
 🔄 Link backend to Wix with cloud functions.
